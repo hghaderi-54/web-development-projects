@@ -1,0 +1,10 @@
+{
+  "name": "git-workflow-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small web project for practicing commits, branches, and merges.",
+  "scripts": {
+    "check": "node --check main.js"
+  },
+  "license": "ISC"
+}

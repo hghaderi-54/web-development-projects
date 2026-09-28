@@ -1,0 +1,6 @@
+body { margin: 0; padding: 2rem; font-family: system-ui, sans-serif; color: #17243b; background: #f5f7fb; }
+main { max-width: 48rem; margin: 3rem auto; padding: 2rem; background: white; border-radius: 1rem; }
+h1 { line-height: 1.2; }
+p { line-height: 1.65; }
+button { background: #234fa0; color: white; border: 0; border-radius: .4rem; padding: .8rem 1.2rem; font: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid #d08000; outline-offset: 3px; }
