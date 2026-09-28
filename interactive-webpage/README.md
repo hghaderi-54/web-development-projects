@@ -1,6 +1,6 @@
-# Git Workflow Practice
+# Interactive Web Page
 
-A small web project for practicing commits, branches, and merges.
+An accessible interactive page built with HTML, CSS, and JavaScript.
 
 ## Run
 

@@ -1,12 +1,20 @@
 # Web Development Projects
 
-Small projects for learning HTML, CSS, JavaScript, and Git workflows.
+A compact collection of complete static web projects, with no build dependencies.
 
-## Projects
+- **[Portfolio](index.html)** — a responsive landing page linking to the three project collections.
+- **[HTML Fundamentals](html-fundamentals/README.md)** — semantic markup and document structure.
+- **[Interactive Web Page](interactive-webpage/README.md)** — HTML, CSS, and JavaScript with an accessible button interaction.
+- **[Git Workflow](docs/git-workflow.md)** — a practical branch, commit, and pull-request exercise.
 
-- [HTML Fundamentals](html-fundamentals/README.md): semantic page structure and document metadata.
-- [Git Workflow Practice](git-workflow-practice/README.md): an interactive page for practicing commits, branches, and merges.
+Open any `index.html` in a browser. For a local server, run `python -m http.server 8000` from this directory, then visit `http://localhost:8000`.
 
-Open a project's `index.html` file in your browser. No build step or dependencies are required. In `git-workflow-practice/`, `npm run check` checks JavaScript syntax if Node.js is installed.
+## Live portfolio
 
-This repository continues the history of `Html`. The Git workflow project was consolidated from `git-project1`; the original repository and its development branch are preserved in an archived repository.
+[View on GitHub Pages](https://hghaderi-54.github.io/web-development-projects/). The portfolio is maintained here rather than in a separate repository.
+
+## Checks
+
+Run `node --test tests/web.test.cjs`. The tests verify page metadata, local assets, and the button interaction. GitHub Actions runs the same checks.
+
+Duplicate web exercises were consolidated into the interactive page. The histories of the former web and portfolio repositories remain reachable in this repository's Git history.
